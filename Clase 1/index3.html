@@ -9,7 +9,7 @@
 </head>
 <body>
       
-    <div id="app0">
+    <div id="app">
         <h1>Contador con Vue.js</h1>
         <p>El contador es: {{ counter }}</p>
         <button @click="increaseCounter">Aumentar</button>
@@ -17,24 +17,6 @@
     </div>
   
 
-    <script>
-        const app0 = Vue.createApp({
-            data() {
-                return {
-                    counter: 0
-                };
-            },
-           methods: {
-                increaseCounter() {
-                    this.counter++;
-                },
-                decreaseCounter() {
-                    this.counter--;
-                }
-            }
-        });
-        app0.mount('#app0');
-
-    </script>
+    <script src="./JS/Example3.js"></script>
 </body>
 </html>

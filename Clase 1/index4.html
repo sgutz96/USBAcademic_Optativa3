@@ -11,24 +11,11 @@
       
     <div id="app">
        <button @click="mostrarMensaje">Mostrar/Ocultar</button>
-       <p v-if="mostrar">!Holiiii¡</p>
+       <p v-if="mostrar">nanananananna</p>
+       <h1 v-if="mostrar">!Batman¡</h1>
+       <p v-else="mostrar" >!Adiooos¡</p>
     </div>
 
-    <script>
-        const app = Vue.createApp({
-            data() {
-                return {
-                    mostrar : false,
-                };
-            },
-           methods: {
-            mostrarMensaje(){
-                this.mostrar = !this.mostrar
-            }
-            }
-        });
-
-        app.mount('#app');
-    </script>
+    <script src="./JS/Example4.js"></script>
 </body>
 </html>

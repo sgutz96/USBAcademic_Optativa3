@@ -21,24 +21,9 @@
         <h1>Lcambiar estilo</h1>
         <p :class="{destacado: esDestadado}" > texto_1</p>
         <button @click="esDestadado = !esDestadado">Cambiar estilo</button>
-        </button>
-        
+        </button>       
 
     </div>
-
-    <script>
-        const app = Vue.createApp({
-            data() {
-                return {
-                    esDestadado: false, // Variable para controlar el estilo
-                };
-            },
-            methods: {
-                // Puedes agregar métodos aquí si es necesario
-                
-            }
-        });
-        app.mount('#app');
-    </script>
+    <script src="./JS/Example10.js"></script>
 </body>
 </html>

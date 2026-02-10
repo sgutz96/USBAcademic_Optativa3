@@ -7,4 +7,4 @@ const app = Vue.createApp({
 
         });
 
-        app.mount('#Ejemplo');
+        app.mount('#App');

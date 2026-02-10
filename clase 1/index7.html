@@ -15,8 +15,7 @@
         <button @click="agregarTarea">Agregar</button>
         <ul>
             <li v-for="(tarea, index) in tareas" :key="index">
-                {{ tarea }}
-                
+               <p>{{ tarea }}</p>                 
                 <button @click="eliminarTarea(index)">Eliminar</button>
             </li>
         </ul>
